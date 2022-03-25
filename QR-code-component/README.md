@@ -8,16 +8,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 ### Screenshot
-
+<img src="screenshot-qr-code-component.png" alt="screenshot">
 
 ### Links
 
-- Solution URL: [Link](https://codepen.io/sundeepbasak/pen/XWVMmjO)
-- Live Site URL: [Link](https://codepen.io/sundeepbasak/pen/XWVMmjO)
+- CodePen Link : [QR-code-component](https://codepen.io/sundeepbasak/pen/XWVMmjO)
 
 ### Author
 
 - Frontend Mentor - [@sundeepbasak](https://www.frontendmentor.io/profile/sundeepbasak)
-- LinkedIn - [@sundeepbasak](https://www.your-site.com)
+- LinkedIn - [@sundeepbasak](https://www.linkedin.com/in/sundeepbasak/)
 - Twitter - [@sundeepbasak](https://www.twitter.com/sundeepbasak)
 

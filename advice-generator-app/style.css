@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    background-color: var(--dark-grayish-blue);
+    padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: var(--grayish-blue);
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+}
+.container h1{
+    color: var(--neon-green);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin-bottom: 1rem;
+}
+.container p{
+    font-size: 28px;
+    color: var(--light-cyan);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.container picture{
+    display: block;
+    margin-bottom: 1rem;
+}
+.container picture::before{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: var(--light-cyan);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+}
+.container picture::after{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: var(--light-cyan);
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+}
+
+.container button{
+    background-color: var(--neon-green);
+    padding: 1.25rem;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: hsl(150, 57%, 52%);
+}
